@@ -13,7 +13,13 @@ notifyBtn.addEventListener("click", (e) => {
     
     const userEmail = emailInput.value;
 
-    if (!validateEmail(userEmail)) {
+    if (userEmail === "") {
+        errorMsg.classList.remove("hidden");
+        errorMsg.textContent = "Whoops! It looks like your forgot to add your email";
+        emailInput.classList.add("input-warning");
+        errorMsg.classList.add("warning");
+        emailInput.placeholder = "example@email.com";
+    } else if (!validateEmail(userEmail)) {
         errorMsg.classList.remove("hidden");
         errorMsg.textContent = "Please provide a valid email address";
         emailInput.classList.add("input-warning");
