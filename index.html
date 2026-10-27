@@ -31,29 +31,36 @@
       <h1>We are launching <span>soon!</span></h1>
       <p>Subscribe and get notified</p>
     </header>
-    <div class="notify">
-      <input type="email" placeholder="     Your email address..." id="email" required/>
-      <p id="error"></p>
+    <form class="notify">
+      <div class="input-and-message">
+        <input type="email" placeholder="Your email address..." id="email" required />
+        <p id="error" class="hidden"></p>
+      </div>
       <button type="submit" class="notify-me" id="notify-me">
         Notify Me
       </button>
-   
-    </div>
-    <div class="content">  
+
+    </form>
+    <div class="content">
       <img alt="site-preview" src="./images/illustration-dashboard.png" class="dashboard" />
-      <div class="icons">
-        <a href="www.facebook.com" class="icon-link"><img alt="facebook-icon" class="icon-img" src="./icons/facebook.png"></a>
-        <a href="www.twitter.com" class="icon-link"><img alt="twitter-icon" class="icon-img" src="./icons/twitter.png" /></a>
-        <a href="www.instagram.com" class="icon-link"><img alt="instagram-icon" class="icon-img" src="./icons/instagram.png" /></a>
-      </div>
     </div>
-    <p class="copyright"> &copy; Copyright Ping. All rights reserved.</p>
+    <div class="footer">
+      <div class="icons">
+        <a href="www.facebook.com" class="icon-link"><img alt="facebook-icon" class="icon-img"
+            src="./icons/facebook.png"></a>
+        <a href="www.twitter.com" class="icon-link"><img alt="twitter-icon" class="icon-img"
+            src="./icons/twitter.png" /></a>
+        <a href="www.instagram.com" class="icon-link"><img alt="instagram-icon" class="icon-img"
+            src="./icons/instagram.png" /></a>
+      </div>
+      <p class="copyright"> &copy; Copyright Ping. All rights reserved.</p>
+    </div>
   </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </footer>
-  <script href="index.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
