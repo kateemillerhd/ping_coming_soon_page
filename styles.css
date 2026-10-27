@@ -151,3 +151,39 @@ input::placeholder {
 
     margin-block-start: 1rem;
 }
+
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 50px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .notify {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    input {
+        width: 35%;
+    }
+
+    .notify-me {
+        width: 15%;
+        margin: 0;
+    }
+
+    .dashboard {
+        width: 50%;
+        height: auto;
+    }
+}
