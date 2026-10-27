@@ -7,6 +7,7 @@ notifyBtn.addEventListener("submit", (e) => {
 
     if (!emailInput) {
         errorMsg.textContent = "Please provide a valid email address";
+        emailInput.classList.add("warning");
     }
 
     if (!emailInput.checkValidity()) {
