@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/kateemillerhd/ping_coming_soon_page)
+- Live Site URL: [Live Site URL](https://kateemillerhd.github.io/ping_coming_soon_page/)
 
 ## My process
 
